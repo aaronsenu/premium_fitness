@@ -1,0 +1,179 @@
+.amenities-container{
+    
+    background: linear-gradient(to bottom, #f8f0e3, #f0f0f0);
+    margin-bottom: 4rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+    position:relative;
+    height:40rem;
+}
+
+.amenities-header{
+    background-color: var(--orange);
+    padding: 2rem;
+    gap:1rem;
+    display: flex;
+    font-weight:bold;
+    font-size:3rem;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+
+
+
+
+
+.left-a{  
+    padding: 2rem;
+    padding-top: 1.5rem;
+    flex:3;
+    display: flex;
+    gap:1rem;
+    flex-direction: column;
+}
+
+.left-a>span{
+    font-weight: bold;
+    color:black
+}
+
+.left-a>div{
+    color:black;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.details-1{
+    margin-left: 18rem;
+}
+
+.details-1>div{
+    display:flex;
+    flex-direction: row;
+}
+
+.details-1>div>img{
+    width:5rem;
+    height:5rem;
+    margin-top: -0.5rem;
+}
+
+.details-1>div>span{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+
+
+.details-2{
+    margin-left: 50rem;
+    margin-top:-18rem
+}
+
+.details-2>div{
+    display:flex;
+    flex-direction: row;
+}
+
+.details-2>div>img{
+    width:5rem;
+    height:5rem;
+    margin-top: -0.5rem;
+
+}
+
+.details-2>div>span{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+    
+
+
+.partners-1{
+    display:flex;
+    gap:4rem;
+    margin-left:3rem;
+    margin-top:-20rem;
+    flex-direction: column;
+    
+}
+
+.partners-1>img{
+    width:4rem;
+}
+.partners-1>img:hover{
+    transform: scale(1.1);
+}
+
+
+.partners-2{
+    display:flex;
+    gap:4rem;
+    margin-left:78rem;
+    margin-top:-18.3rem;
+    flex-direction: column;
+    
+}
+
+.partners-2>img{
+    width:4rem;
+}
+
+.partners-2>img:hover{
+    transform: scale(1.1);
+}
+
+
+
+.amenity_button-link>a{
+    text-decoration: none;
+    color:white
+}
+
+
+.amenity_button-link>a:hover{
+    color:white
+}
+
+.amenity-button>:nth-child(1){
+    position:relative;
+    font-size:1.2rem;
+    width:13rem;
+    top:4rem; 
+    margin-left:38rem;
+    background-color:var(--orange);
+    
+}
+
+.amenity-button>:nth-child(1):hover{
+    background-color: var(--appColor);
+    color:white;
+}
+
+
+
+
+.right-a{
+    flex:1;
+    position:relative;
+    
+}
+
+.right-a>img{
+    position: absolute;
+    width:34rem;
+    height: 34rem;
+    object-fit: cover;
+    right: 0rem;
+    top:-37rem
+}
+
+
+
+
+

@@ -1,0 +1,325 @@
+.checkout_page{
+  height: 150rem;
+  background: #f0f0f0;
+}
+
+
+.checkout-header{
+  padding: 2rem;
+
+  display: flex;
+  font-weight:bold;
+  font-size:2rem;
+  height: 10rem;
+  margin-top: 9rem;
+  letter-spacing: 0.2rem;
+  background-color: var(--appColor);
+  
+}
+
+
+
+.checkout-header>div>span:nth-child(1){
+  color: var(--orange);
+  margin-left:5rem;
+  
+}
+
+.checkout-header>div>span:nth-child(2){
+  color: white;
+  
+}
+
+.membership-name-header{
+  padding: 2rem;
+  display: flex;
+  font-weight:bold;
+  font-size:3rem;
+  
+  margin-top: -11rem;
+  letter-spacing: 0.3rem;
+  color:white;
+  margin-left:5rem;
+
+}
+
+
+.checkout-card{
+  background-color: white;
+  width:50rem;
+  height:40rem;
+  margin-left:44rem;
+  border: 5px solid black
+}
+
+
+
+.summary_col-1{
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  font-weight:bold;
+  font-size:1.3rem;
+  height: 10rem;
+  margin-top: 0rem;
+  margin-left: 0rem;
+  letter-spacing: 0.2rem;
+  gap:2rem;
+
+  
+}
+
+.summary_col-1 span{
+  margin-left: 5rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+
+
+} 
+
+
+
+.summary_col-2{
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  font-weight:bold;
+  font-size:1.3rem;
+  height: 10rem;
+  margin-top: -10.5rem;
+  margin-left: 25rem;
+  letter-spacing: 0.2rem;
+  gap:2rem;
+  
+}
+
+.summary_col-2>div{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+
+
+
+
+
+
+.checkout_form {
+  display: flex;
+  flex-direction: column;
+  margin-top: -30rem;
+  margin-left: 7rem;
+  gap:2rem;
+  
+}
+
+
+
+
+.personal_info_container{
+  display: flex;
+  flex-direction: row;
+  gap:4rem;
+}
+
+.personal_info_container input{
+  width:10rem;
+  height:1.5rem;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+.personal_info_container label{
+  font-weight: bold;
+
+}
+
+
+
+.personal_info_col1{
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.personal_info_col2{
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+
+
+
+.address_info_container{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.address_info_container input{
+  width:10rem;
+  height:1.5rem;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+.address_info_container select{
+  width:10rem;
+  height:2rem;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+
+.address_info_container label{
+  font-weight: bold;
+
+}
+
+
+
+.address_info_row1{
+  display: flex;
+  flex-direction: row;
+  gap:2rem;
+  
+  
+}
+
+.address_info_row2{
+  display: flex;
+  flex-direction: row;
+  gap:2rem
+  
+  
+}
+
+
+
+
+.emergency_info_container{
+  display: flex;
+  flex-direction: row;
+  gap:4rem;
+}
+
+.emergency_info_container input{
+  width:12rem;
+  height:1.8rem;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+.emergency_info_container label{
+  font-weight: bold;
+
+}
+
+
+
+.emergency_info_col1{
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+.emergency_info_col2{
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+
+
+
+
+
+
+
+
+.billing_info_container{
+  display: flex;
+  flex-direction: row;
+  gap:4rem;
+}
+
+.billing_info_container input{
+  width:12rem;
+  height:1.5rem;
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+.billing_info_container label{
+  font-weight: bold;
+
+}
+
+
+
+.checkout-button{
+  display: flex;
+  font-weight: normal;
+  width:13.5rem
+
+}
+
+.checkout-button>:nth-child(1){
+  color:white;
+  background-color: var(--orange);
+  width: 13.5rem;
+
+
+}
+
+.checkout-button>:nth-child(1):hover{
+  color:white;
+
+  background-color: var(--appColor);
+  width:13.5rem;
+  
+  
+}
+
+
+
+
+
+
+
+.billing_info_col1{
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+/*
+label,
+input,
+select {
+  margin-bottom: 10px;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+select {
+  width: 100%;
+  padding: 8px;
+}
+
+button[type='submit'] {
+   background-color:#4CAF50; 
+   color:white; 
+   border:none; 
+   padding :10px20px ; 
+    cursor:pointer ;
+    font-size :16px ;
+}*/

@@ -1,0 +1,169 @@
+.club-hero{
+    display: flex;
+    justify-content: space-between;
+    height:55rem;
+    background: linear-gradient(to right ,var(--appColor), #0f0c0c00), url(../../assets/Club.jpg);
+    background-position: center;
+    background-size:cover ;
+   
+    
+
+    
+
+}
+
+.left-cl{  
+    margin-top: 10rem;
+    margin-left:1rem;
+    padding: 2rem;
+    padding-top: 3rem;
+    flex:3;
+    display: flex;
+    gap:2rem;
+    flex-direction: column;
+    
+}
+
+.club-text{
+    
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color:white;
+    text-overflow: inherit;
+
+    
+}
+
+
+.club-text>div:nth-child(1)>span:nth-child(1){
+    
+    display:flex;
+    font-weight:bold;
+    font-size:1rem;
+    color:var(--orange);
+
+    
+
+}
+
+
+.club-text>div:nth-child(3){
+    font-size: 0.9rem;
+    font-weight:200;
+    letter-spacing: 1px;
+    width: 80%;
+    line-height: 2;
+}
+
+
+.club-figures{
+    display: flex;
+    gap: 2rem;
+}
+
+.figures>div{
+    display:flex;
+    flex-direction: column;
+}
+
+.figures>div>span:nth-child(1){
+    color:white;
+    font-size:2rem;
+}
+
+.figures>div>span:nth-child(2){
+    color: var(--gray);
+
+}
+
+.club_hero-button{
+    display: flex;
+    font-weight: normal;
+    width:10rem
+
+}
+
+.club_hero-button>:nth-child(1){
+    color:white;
+    background-color: var(--orange);
+    width: 10rem;
+
+
+}
+
+.club_hero-button>:nth-child(1):hover{
+    color:white;
+
+    background-color: transparent;
+    width:10rem;
+    border:2px solid var(--orange);
+    
+}
+
+
+
+
+.clubs-container{
+    background: linear-gradient(to bottom, #f0f0f0, var(--appColor));
+    margin-top: 2rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+    position:relative;
+    height:70rem;
+}
+
+.clubs-header{
+    padding: 2rem;
+    display: flex;
+    font-weight:bold;
+    font-size:3rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.clubs-header>div>span:nth-child(1){
+    color: var(--orange);
+    padding-right: 1rem;
+    
+}
+
+.clubs-info{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.images>:nth-child(1){
+    
+    width: 25rem;
+    height:25rem;
+    border: 1px solid black;
+
+}
+
+.images>:nth-child(2){
+    
+    width: 25rem;
+    height:25rem;
+
+    padding-left:1rem;
+
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    padding:1rem;
+    gap:2rem;
+    font-size:1.2rem;
+    justify-content: center;
+    align-items: center;
+
+}

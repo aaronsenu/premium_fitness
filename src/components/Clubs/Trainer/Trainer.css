@@ -1,0 +1,98 @@
+.trainer-container{
+    background: linear-gradient(to bottom, var(--appColor), #131718);
+    margin-top: -15rem;
+    height:45rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+    position:relative;
+}
+
+.trainer-header{
+    padding: 2rem;
+    display: flex;
+    font-weight:bold;
+    font-size:3rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.trainer-header>div>span:nth-child(1){
+    color: white;
+    
+}
+
+.trainer-header>div>span:nth-child(2){
+    color: var(--orange);
+    
+}
+
+
+
+
+.trainers{
+    display:flex;
+    flex-direction: row;
+}
+
+.trainer>img{
+    width:15rem;
+    height:15rem;
+    padding:1rem;
+    border-radius: 20rem;
+    object-fit: cover;
+    border: 10px solid var(--gray);
+    margin-right:5rem;
+}
+
+.trainer>img:hover{
+    transform: scale(1.01);
+    cursor:pointer;
+    border: 10px solid var(--orange);
+}
+
+.trainer>span{
+    display:flex;
+    flex-direction: column;
+    padding:0.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-left:-5rem;
+
+
+}
+
+.trainer>span:nth-child(2){
+    color:white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.trainer>span:nth-child(3){
+    color: var(--gray)
+}
+
+
+
+.trainer-btn{
+    margin-left: 44%;
+}
+
+.trainer-btn>:nth-child(1){
+    color:white;
+    background-color: var(--gray);
+    width: 12rem;
+    font-size: 1rem;
+
+
+}
+
+.trainer-btn>:nth-child(1):hover{
+    color:white;
+
+    background-color: var(--orange);
+    
+}

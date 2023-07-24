@@ -1,0 +1,154 @@
+
+  
+  .header {
+    padding: 1rem 2rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 2rem;
+    width: min(90%, 1500px);
+    height: 4rem;
+    margin-inline: auto;
+    background-color: black;
+    border-radius: 20px;
+    border-color: 5px solid white;
+
+    transition: all 0.3s ease-in-out;
+    z-index: 9999;
+  }
+  
+  .header.is-sticky {
+    background-color: black;
+
+    width: 100%;
+    height:4rem;
+    top: 0;
+    border-radius: 0 0 20px 20px;
+  }
+  
+  .header__inner {
+    margin-top: -0.5rem;
+
+    color:white;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .header__nav ul {
+
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.1rem;
+    padding-left: 6rem;
+  }
+
+  
+  .navbar-menu>:nth-child(n) {
+    
+    color:white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0.5rem;
+    
+  }
+
+  .navbar-menu :hover {
+    color:var(--orange)
+    
+  }
+
+
+  .header__logo {
+    margin-top: -0.5rem;
+
+    padding-left: 0.5rem;
+    
+  }
+
+  .header__logo:hover {
+    cursor: pointer;
+    }
+
+  .logo{
+    width: 23.75rem;
+    height: 5rem;
+  }
+
+
+/*Member button*/
+
+.navbar_btn_1-link>a{
+    text-decoration: none;
+    color:white;
+    font-size: 0.9rem;
+    
+
+}
+
+
+.navbar_btn_1-link>a:hover{
+    color:white;
+    
+}
+
+.navbar-buttons>:nth-child(1){
+  position:absolute;
+  margin-top: -0.5rem;
+  right:13rem;
+  top:2.5rem;  
+  background-color: var(--orange);
+  width:11rem;
+  height:2.3rem;
+
+  
+}
+
+
+.navbar-buttons>:nth-child(1):hover{
+    background-color: black;
+    transition: 0.3s ease-in-out;
+
+
+}
+
+
+
+
+
+/*Log in button*/
+
+.navbar_btn_2-link>a{
+  text-decoration: none;
+  color:white;
+  font-size: 0.9rem;
+}
+
+
+.navbar_btn_2-link>a:hover{
+  color:var(--orange);
+}
+
+.navbar-buttons>:nth-child(2){
+    position:absolute;
+    margin-top: -0.5rem; 
+    right:8rem;
+    top:2.5rem; 
+    color:white;
+    background-color: black;
+    
+    height:2.3rem;
+
+    
+}
+
+.navbar-buttons>:nth-child(2):hover{
+  
+    background-color: black;
+    
+}
+
+  

@@ -1,0 +1,200 @@
+/*Hero*/
+.exercise-hero{
+    background: var(--appColor);
+
+    display: flex;
+    justify-content: space-between;
+    height:48rem;
+    
+
+}
+
+
+.exercise-blur{
+    background: rgba(215, 209, 204, 0.69);
+    width:25rem;
+    height:30rem;
+    left:0;
+    z-index: 0;
+
+}
+
+.left-exercise{  
+    margin-top: 12rem;
+    margin-left:1rem;
+    padding: 2rem;
+    padding-top: 3rem;
+    flex:3;
+    display: flex;
+    gap:2rem;
+    flex-direction: column;
+    
+}
+
+.exercise-text{
+    
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color:white;
+    text-overflow: inherit;
+    z-index: 1;
+
+    
+}
+
+
+.exercise-text>div:nth-child(1)>span:nth-child(1){
+    
+    display:flex;
+    font-weight:bold;
+    font-size:1rem;
+    color:var(--orange);
+
+    
+
+}
+
+
+.exercise-text>div:nth-child(3){
+    font-size: 0.9rem;
+    font-weight:200;
+    letter-spacing: 1px;
+    width: 80%;
+    line-height: 2;
+}
+
+
+
+
+.figures>div{
+    display:flex;
+    flex-direction: column;
+}
+
+.figures>div>span:nth-child(1){
+    color:white;
+    font-size:2rem;
+}
+
+.figures>div>span:nth-child(2){
+    color: var(--gray);
+
+}
+
+.exercise_hero-button{
+    display: flex;
+    font-weight: normal;
+    width:10rem
+
+}
+
+.exercise_hero-button>:nth-child(1){
+    color:white;
+    background-color: var(--orange);
+    width: 10rem;
+
+
+}
+
+.exercise_hero-button>:nth-child(1):hover{
+    color:white;
+
+    background-color: transparent;
+    width:10rem;
+    border:2px solid var(--orange);
+    
+}
+
+
+.right-exercise{
+    margin-top: 8rem;
+    
+    
+    position:relative;
+}
+
+
+.exercise_banner{
+    position:absolute;
+    top:0rem;
+    right: 0rem;
+    width:50rem;
+    height:40rem;
+    z-index:2;
+
+}
+
+.exercise_banner-circle1{
+    position:absolute;
+    top:0rem;
+    right:15rem;
+    z-index:1;
+    width:40rem;
+    mix-blend-mode: luminosity;
+
+    
+}
+.exercise_banner-circle2{
+    position:absolute;
+    top:0rem;
+    right:15rem;
+    z-index:1;
+    width:40rem;
+    mix-blend-mode: luminosity;
+
+
+
+}
+
+
+
+/*exercise categories*/
+
+.exercise-categories_page{
+    background: #f0f0f0;
+    height:400rem;
+}
+
+
+
+.exercise-categories{
+    display: flex;
+    height:48rem;
+    
+
+}
+
+.ex-header{
+    margin-top: 3rem;
+    padding: 2rem;
+    display: flex;
+    font-weight:bold;
+    font-size:3rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ex-header>div>span:nth-child(1){
+    color: var(--appColor);
+    margin-left: 3rem;
+    
+}
+
+.ex-header>div>span:nth-child(2){
+    color: var(--orange);
+}
+
+
+
+
+.ex-muscle-header{
+    margin-top:2rem;
+    font-size:2rem;
+    font-weight: bold;
+    margin-left:40rem
+}
+

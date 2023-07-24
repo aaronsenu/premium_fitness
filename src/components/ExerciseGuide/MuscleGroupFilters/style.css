@@ -1,0 +1,104 @@
+
+
+
+
+.muscle_buttons-container {
+  margin-left: -10rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3rem;
+  
+  
+  gap:2rem;
+}
+.muscle_button {
+  margin-left:10rem;
+  border: 1px solid #000;
+  background: transparent;
+  color:black;
+  width:7rem;
+  height:3rem;
+  border-radius: 5rem;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.muscle_button:hover {
+  background-color: var(--appColor);
+  color:white
+}
+
+.muscle-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.muscle {
+  background: white;
+  padding: 4px 10px;
+  width: 20rem;
+  height: 33rem;
+  border: 2px solid black;
+  
+
+  display: flex;
+  flex-direction: column;
+}
+
+.muscle:hover{
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0);
+  transform: scale(1.05)
+}
+
+.muscle_image{
+  width:20rem;
+  height:20rem;
+  margin-left:0rem;
+  margin-top:1rem;
+  border:1px solid black;
+  
+}
+
+
+
+.muscle_name{
+    color: var(--appColor);
+    margin-top:2rem;
+    margin-left:1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+
+
+.muscle_category {
+  color: var(--orange);
+  margin-top:1rem;
+  margin-left:1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  
+}
+
+.muscle_equipment{
+    font-size:1rem;
+    color: var(--appColor);
+    margin-top:1rem;
+    margin-left:1rem;
+    margin-right:2rem;
+    line-height: 1.7rem;
+    font-weight: bold;
+
+}
+
+.active {
+  background-color: var(--appColor);
+  color: white;
+}

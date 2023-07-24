@@ -1,0 +1,197 @@
+/*Hero*/
+.strength-hero{
+    background: var(--appColor);
+
+    display: flex;
+    justify-content: space-between;
+    height:48rem;
+    
+
+}
+
+
+.strength-blur{
+    background: rgba(215, 209, 204, 0.69);
+    width:25rem;
+    height:30rem;
+    left:0;
+    z-index: 0;
+
+}
+
+.left-s{  
+    margin-top: 12rem;
+    margin-left:1rem;
+    padding: 2rem;
+    padding-top: 3rem;
+    flex:3;
+    display: flex;
+    gap:2rem;
+    flex-direction: column;
+    
+}
+
+.strength-text{
+    
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color:white;
+    text-overflow: inherit;
+    z-index: 1;
+
+    
+}
+
+
+.strength-text>div:nth-child(1)>span:nth-child(1){
+    
+    display:flex;
+    font-weight:bold;
+    font-size:1rem;
+    color:var(--orange);
+
+    
+
+}
+
+
+.strength-text>div:nth-child(3){
+    font-size: 0.9rem;
+    font-weight:200;
+    letter-spacing: 1px;
+    width: 80%;
+    line-height: 2;
+}
+
+
+
+
+.figures>div{
+    display:flex;
+    flex-direction: column;
+}
+
+.figures>div>span:nth-child(1){
+    color:white;
+    font-size:2rem;
+}
+
+.figures>div>span:nth-child(2){
+    color: var(--gray);
+
+}
+
+.strength_hero-button{
+    display: flex;
+    font-weight: normal;
+    width:10rem
+
+}
+
+.strength_hero-button>:nth-child(1){
+    color:white;
+    background-color: var(--orange);
+    width: 10rem;
+
+
+}
+
+.strength_hero-button>:nth-child(1):hover{
+    color:white;
+
+    background-color: transparent;
+    width:10rem;
+    border:2px solid var(--orange);
+    
+}
+
+
+.right-s{
+    margin-top: 8rem;
+    
+    
+    position:relative;
+}
+
+
+.strength_banner{
+    position:absolute;
+    top:0rem;
+    right: 0rem;
+    width:50rem;
+    height:40rem;
+    z-index:2;
+
+}
+
+.strength_banner-circle1{
+    position:absolute;
+    top:0rem;
+    right:15rem;
+    z-index:1;
+    width:40rem;
+    mix-blend-mode: luminosity;
+
+    
+}
+.strength_banner-circle2{
+    position:absolute;
+    top:0rem;
+    right:15rem;
+    z-index:1;
+    width:40rem;
+    mix-blend-mode: luminosity;
+
+
+
+}
+
+
+
+/*Strength categories*/
+
+.strength-categories_page{
+    background: #f0f0f0;
+    height:80rem;
+}
+
+
+
+.strength-categories{
+    display: flex;
+    height:48rem;
+    
+
+}
+
+.s-header{
+    margin-top: 3rem;
+    padding: 2rem;
+    display: flex;
+    font-weight:bold;
+    font-size:3rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.s-header>div>span:nth-child(1){
+    color: var(--appColor);
+    
+}
+
+.s-header>div>span:nth-child(2){
+    color: var(--orange);
+}
+
+
+.s-intensity-header{
+    margin-top:2rem;
+    font-size:2rem;
+    font-weight: bold;
+    margin-left:40rem
+}
+

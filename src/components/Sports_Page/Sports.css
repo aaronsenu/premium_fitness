@@ -1,0 +1,203 @@
+/*Hero*/
+.sports-hero{
+    background: black;
+
+    display: flex;
+    justify-content: space-between;
+    height:50rem;
+    
+
+}
+
+
+.sports-blur{
+    background: rgba(215, 209, 204, 0.69);
+    width:25rem;
+    height:30rem;
+    left:0;
+    z-index: 0;
+
+}
+
+.left-sports{  
+    margin-top: 8rem;
+    margin-left:1rem;
+    padding: 2rem;
+    padding-top: 3rem;
+    flex:3;
+    display: flex;
+    gap:2rem;
+    flex-direction: column;
+    
+}
+
+.sports-text{
+    
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color:white;
+    text-overflow: inherit;
+    z-index: 1;
+
+    
+}
+
+
+.sports-text>div:nth-child(1)>span:nth-child(1){
+    
+    display:flex;
+    font-weight:bold;
+    font-size:1rem;
+    color:var(--orange);
+
+    
+
+}
+
+
+.sports-text>div:nth-child(3){
+    font-size: 0.9rem;
+    font-weight:200;
+    letter-spacing: 1px;
+    width: 80%;
+    line-height: 2;
+}
+
+
+
+
+.figures>div{
+    display:flex;
+    flex-direction: column;
+}
+
+.figures>div>span:nth-child(1){
+    color:white;
+    font-size:2rem;
+}
+
+.figures>div>span:nth-child(2){
+    color: var(--gray);
+
+}
+
+.sports_hero-button{
+    display: flex;
+    font-weight: normal;
+    width:10rem
+
+}
+
+.sports_hero-button>:nth-child(1){
+    color:white;
+    background-color: var(--orange);
+    width: 10rem;
+
+
+}
+
+.sports_hero-button>:nth-child(1):hover{
+    color:white;
+
+    background-color: transparent;
+    width:10rem;
+    border:2px solid var(--orange);
+    
+}
+
+
+.right-sports{
+    margin-top: 8rem;
+    
+    
+    position:relative;
+}
+
+
+.sports_banner{
+    
+    position:absolute;
+    top:0rem;
+    right: 0rem;
+    width:50rem;
+    height:58rem;
+    z-index:2;
+   
+
+}
+
+
+.courts{
+    gap:3rem;
+    background: black;
+    height: 50rem;
+
+}
+
+.ball-court img{
+    border: 2px solid white;
+    padding:0rem;
+    margin-left:3rem;
+
+    
+   
+}
+
+.ball-court img:hover{
+    transform: scale(1.01);
+    
+   
+}
+
+
+
+.court-text{
+    position: relative;
+    color:white;
+    margin-top:-5rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.court-text h1{
+    color:white;
+   font-size: 5rem;
+   margin-top: -10.5rem;
+   margin-left: 16rem;
+}
+
+.court-text span{
+    color:white;
+    margin-left: 16.5rem;
+    margin-top: -9rem;
+    line-height: 11rem;
+}
+
+
+/*
+.sports_banner-circle1{
+    position:absolute;
+    top:0rem;
+    right:15rem;
+    z-index:1;
+    width:40rem;
+    mix-blend-mode: luminosity;
+
+    
+}
+.sports_banner-circle2{
+    position:absolute;
+    top:0rem;
+    right:15rem;
+    z-index:1;
+    width:40rem;
+    mix-blend-mode: luminosity;
+
+
+
+}
+*/

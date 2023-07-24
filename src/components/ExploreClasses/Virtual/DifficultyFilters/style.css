@@ -1,0 +1,129 @@
+.difficulty_buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-left:-1rem;
+  gap:4rem;
+}
+.difficulty_button {
+  border: 1px solid #000;
+  background: transparent;
+  color:black;
+  width:5rem;
+  height:3rem;
+  border-radius: 5rem;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.difficulty_button:hover {
+  background-color: var(--appColor);
+  color:white
+}
+
+.virtual_classes-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.virtual_class {
+  background: white;
+
+  padding: 4px 10px;
+  width: 23rem;
+  height: 20rem;
+  gap:1rem;
+  
+
+  display: flex;
+  flex-direction: column;
+}
+
+.virtual_class:hover{
+
+  transform: scale(1.05);
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0);
+
+}
+
+.virtual_name{
+    color: var(--appColor);
+    margin-top:2rem;
+    margin-left:1rem;
+    margin-right: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.virtual_time{
+  margin-left: 1rem;  
+  color: var(--appColor);
+  
+}
+
+.virtual_text{
+  margin-left: 1rem;
+}
+
+.virtual_category {
+  color: var(--orange);
+  margin-top:1rem;
+  margin-left:1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  
+}
+
+.virtual_workout{
+    font-size:1rem;
+    color: var(--appColor);
+    margin-top:0rem;
+    margin-left:1rem;
+    margin-right:2rem;
+    line-height: 1.7rem;
+
+}
+
+.virtual_class-btn{
+    position: absolute;
+    margin-top: 16rem;
+    margin-left:1rem;
+    width:21rem;
+    color:white;
+    background-color: var(--orange);
+    
+}
+
+.virtual_class-btn:hover{
+    background-color: var(--appColor);
+    
+}
+
+
+.active {
+  background-color: var(--appColor);
+  color: white;
+}
+
+.training_completion{
+  width:5rem;
+  height:5rem;
+  margin-left: 16.5rem;
+  margin-top: -15.5rem;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.training_completion img[src]{
+  width:7rem;
+  height:7rem;
+  
+  
+}

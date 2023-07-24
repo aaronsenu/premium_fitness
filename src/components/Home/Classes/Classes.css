@@ -1,0 +1,253 @@
+/*home page classes section*/
+.class-container{
+    background: linear-gradient(to bottom,#f0f0f0, var(--appColor));
+    margin-top:-4rem;
+    margin-bottom:-10rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+    position:relative;
+    height:70rem;
+
+}
+
+.class-header{
+    margin-top: 0rem;
+    padding: 2rem;
+    display: flex;
+    font-weight:bold;
+    font-size:3rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.class-header>div>span:nth-child(2){
+    color: var(--orange);
+    
+}
+
+
+.class-btn{
+    margin-left: 44%;
+}
+
+.class-btn>:nth-child(1){
+    background-color: var(--orange);
+    width: 12rem;
+    font-size: 1rem;
+
+
+}
+
+.class-btn>:nth-child(1)>a{
+    color:white;
+    text-decoration: none;
+}
+
+.class-btn>:nth-child(1):hover{
+    color:white;
+
+    background-color: var(--appColor);
+    
+}
+
+.cardlink>a{
+    text-decoration: none;
+}
+
+
+.classes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+
+.Class{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color:white;
+    gap:2rem;
+    padding: 1.5rem;
+    width:15rem;
+    border-radius: 0.5rem;
+    mix-blend-mode:luminosity;
+}
+
+.Class:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    mix-blend-mode:normal;
+}
+
+
+ 
+/* 1st Class card */
+.Class:nth-child(1){
+    height: 27rem;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/* img */
+.Class:nth-child(1)>img{
+    width:15rem;
+    height:18rem;
+    margin-top:-2rem;
+    object-fit:cover;
+    border-radius: 0.5rem;
+    transform: scale(1.2);
+    
+
+}
+
+
+
+/* Category */
+.Class:nth-child(1)>h1{
+    color:var(--orange);
+    font-size: 1.4rem;
+    font-weight: bold;
+    
+}
+
+/* Description */
+.Class:nth-child(1)>span{
+    color:black;
+    font-size: 1rem;
+
+   
+    
+}
+
+
+
+
+/* 2nd Class card */
+.Class:nth-child(2){
+    height: 32rem;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+/* img */
+.Class:nth-child(2)>img{
+    width:15rem;
+    height:22rem;
+    margin-top:-2rem;
+
+    object-fit:cover;
+    border-radius: 0.5rem;
+    transform: scale(1.2);
+   }
+
+
+
+
+
+/* Category */
+.Class:nth-child(2)>h1{
+    color:var(--orange);
+    font-size: 1.4rem;
+    font-weight: bold;
+    
+}
+
+/* Description */
+.Class:nth-child(2)>span{
+    color:black;
+    font-size: 1rem;
+    
+    
+}
+
+
+/* 3rd Class card */
+.Class:nth-child(3){
+    height: 32rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* img */
+.Class:nth-child(3)>img{
+    width:15rem;
+    height:22rem;
+    margin-top:-2rem;
+
+    object-fit:cover;
+    border-radius: 0.5rem;
+    transform: scale(1.2);
+   
+}
+
+
+
+/* Category */
+.Class:nth-child(3)>h1{
+    color:var(--orange);
+    font-size: 1.4rem;
+    font-weight: bold;
+    
+}
+
+/* Description */
+.Class:nth-child(3)>span{
+    color:black;
+    font-size: 1rem;
+    
+    
+}
+
+
+
+
+
+
+/* 4th Class card */
+.Class:nth-child(4){
+    height: 27rem;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/* img */
+.Class:nth-child(4)>img{
+    width:15rem;
+    height:17rem;
+    margin-top:-2rem;
+    object-fit:cover;
+    border-radius: 0.5rem;
+    transform: scale(1.2);
+   
+}
+
+
+
+/* Category */
+.Class:nth-child(4)>h1{
+    color:var(--orange);
+    font-size: 1.4rem;
+    font-weight: bold;
+
+    
+}
+
+/* Description */
+.Class:nth-child(4)>span{
+    color:black;
+    font-size: 1rem;
+    
+    
+}

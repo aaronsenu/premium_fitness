@@ -1,0 +1,279 @@
+/*Hero*/
+.class-hero{
+    background: var(--appColor);
+
+    display: flex;
+    justify-content: space-between;
+    height:48rem;
+    
+
+}
+
+
+.class-blur{
+    background: rgba(215, 209, 204, 0.69);
+    width:25rem;
+    height:30rem;
+    left:0;
+    z-index: 0;
+
+}
+
+.left-c{  
+    margin-top: 8rem;
+    margin-left:1rem;
+    padding: 2rem;
+    padding-top: 3rem;
+    flex:3;
+    display: flex;
+    gap:2rem;
+    flex-direction: column;
+    
+}
+
+.class-text{
+    
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color:white;
+    text-overflow: inherit;
+    z-index: 1;
+
+    
+}
+
+
+.class-text>div:nth-child(1)>span:nth-child(1){
+    
+    display:flex;
+    font-weight:bold;
+    font-size:1rem;
+    color:var(--orange);
+
+    
+
+}
+
+
+.class-text>div:nth-child(3){
+    font-size: 0.9rem;
+    font-weight:200;
+    letter-spacing: 1px;
+    width: 80%;
+    line-height: 2;
+}
+
+
+
+
+.figures>div{
+    display:flex;
+    flex-direction: column;
+}
+
+.figures>div>span:nth-child(1){
+    color:white;
+    font-size:2rem;
+}
+
+.figures>div>span:nth-child(2){
+    color: var(--gray);
+
+}
+
+.class_hero-button{
+    display: flex;
+    font-weight: normal;
+    width:10rem
+
+}
+
+.class_hero-button>:nth-child(1){
+    color:white;
+    background-color: var(--orange);
+    width: 10rem;
+
+
+}
+
+.class_hero-button>:nth-child(1):hover{
+    color:white;
+
+    background-color: transparent;
+    width:10rem;
+    border:2px solid var(--orange);
+    
+}
+
+
+.right-c{
+    margin-top: 8rem;
+    
+    
+    position:relative;
+}
+
+
+.class_banner{
+
+    position:absolute;
+    top:0rem;
+    right: 0rem;
+    width:50rem;
+    height:40rem;
+    z-index:2;
+
+}
+
+.class_banner-circle1{
+    position:absolute;
+    top:0rem;
+    right:15rem;
+    z-index:1;
+    width:40rem;
+    mix-blend-mode: luminosity;
+
+    
+}
+.class_banner-circle2{
+    position:absolute;
+    top:0rem;
+    right:15rem;
+    z-index:1;
+    width:40rem;
+    mix-blend-mode: luminosity;
+
+
+
+}
+
+/*Class categories*/
+
+
+.category-container{
+    background-color: #f0f0f0;
+    margin-top: 6rem;
+   
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+    position:relative;
+}
+
+.category-header{
+    padding: 2rem;
+    display: flex;
+    font-weight:bold;
+    font-size:3rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.category-header>div>span:nth-child(1){
+    color: var(--orange);
+    padding-right: 1rem;
+    
+}
+
+.class_categories{
+    display: flex;
+    flex-direction: column;
+    margin-left:10rem;
+}
+
+.class_row{
+    display: flex;
+    flex-direction: row;
+    gap:4rem;
+}
+
+.class_category-container {
+    display: flex;
+    margin-top: 2rem;
+    gap: 6rem;
+    justify-content: center;
+    align-items: center;
+    border:1px solid black;
+  }
+
+  .class_category-container:hover{
+    transform: scale(1.05);
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0);
+  }
+  
+  .class_category {
+    background: white;
+  
+    padding: 4px 10px;
+    width: 20rem;
+    height: 42rem;
+    
+  
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .class_image{
+    width:20rem;
+    height:25rem;
+    object-fit: cover;
+    border:1px solid black;
+    margin-top:0.5rem;
+    margin-left:-0rem;
+ }
+ 
+
+  .class_name{
+      color: var(--appColor);
+      margin-top:2rem;
+      margin-left:1rem;
+      font-size: 2rem;
+      font-weight: bold;
+      
+  }
+  
+  
+  
+  .class_text{
+      font-size:1rem;
+      color: var(--appColor);
+      margin-top:1rem;
+      margin-left:1rem;
+      margin-right:2rem;
+      line-height: 1.7rem;
+  
+  }
+  
+  .class-button{
+      position: absolute;
+      margin-top: 38.5rem;
+      margin-left:1rem;
+      width:18rem;
+      color:white;
+      background-color: var(--orange);
+      
+  }
+  
+  .class-button:hover{
+      background-color: var(--appColor);
+      
+  }
+  
+
+
+
+.classlink>a{
+    text-decoration: none;
+    color:white
+}
+
+
+.classlink>a:hover{
+    color:white
+}
+

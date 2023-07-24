@@ -1,0 +1,263 @@
+.t-container{
+    background: linear-gradient(to bottom, var(--appColor),#f0f0f0);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+    position:relative;
+    margin-bottom: 4rem;
+
+}
+
+.t-header{
+    padding: 2rem;
+    display: flex;
+    font-weight:bold;
+    font-size:3rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.t-header>div>span:nth-child(1){
+    color: white;
+    
+}
+
+.t-header>div>span:nth-child(2){
+    color: var(--orange);
+    
+}
+
+
+
+.reviews{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+
+.review{
+    display: flex;
+    flex-direction:row;
+    background-color: var(--appColor);
+    color:white;
+    gap:2rem;
+    padding: 2rem;
+    width:27rem;
+    border-radius: 0.8rem;
+    height: 11rem;
+}
+
+.review:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+
+
+/* 1st review card */
+.review:nth-child(1){
+    
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/* img */
+.review:nth-child(1)>div>:nth-child(1){
+    position: relative;
+    width:5rem;
+    height: 5rem;
+    padding: 0.5rem;
+    border-radius: 5rem;
+    
+    border: 2px solid var(--orange);
+    object-fit: cover;
+    left: -1rem;
+    top: -1rem
+}
+
+/* handle */
+.review:nth-child(1)>div>:nth-child(2){
+    position: relative;
+    font-size: 1.1rem;
+    font-weight: bold;
+    top: -7rem;
+    left: 6rem
+    
+}
+
+/* verify check*/
+.review:nth-child(1)>div>:nth-child(3){
+    position: relative;
+    width:2rem;
+    height: 2rem;
+    
+    object-fit: cover;
+    left: 7rem;
+    top: -6.3rem
+}
+
+/* Status*/
+.review:nth-child(1)>div>:nth-child(4){
+    position: relative;
+    color:var(--orange);
+    white-space: nowrap;
+    top: -6rem;
+    left: 6rem
+}
+
+/* Review Text*/
+
+.review:nth-child(1)>:nth-child(2){
+    position:relative;
+    color: white;
+    white-space: wrap;
+    margin-right: -15rem;
+    top:3rem;
+    left:-18rem;    
+}
+
+
+
+
+/* 2nd review card */
+.review:nth-child(2){
+    
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/* img */
+.review:nth-child(2)>div>:nth-child(1){
+    position: relative;
+    width:5rem;
+    height: 5rem;
+    padding: 0.5rem;
+    border-radius: 5rem;
+    
+    border: 2px solid var(--orange);
+    object-fit: cover;
+    left: -1rem;
+    top: -1.5rem
+}
+
+/* handle */
+.review:nth-child(2)>div>:nth-child(2){
+    position: relative;
+    font-size: 1.1rem;
+    font-weight: bold;
+    top: -7.5rem;
+    left: 6rem
+    
+}
+
+/* verify check*/
+.review:nth-child(2)>div>:nth-child(3){
+    position: relative;
+    width:2rem;
+    height: 2rem;
+    
+    object-fit: cover;
+    left: 7rem;
+    top: -7rem
+}
+
+/* Status*/
+.review:nth-child(2)>div>:nth-child(4){
+    position: relative;
+    color:var(--orange);
+    white-space: nowrap;
+    top: -6rem;
+    left: 6rem
+}
+
+/* Review Text*/
+
+.review:nth-child(2)>:nth-child(2){
+    position:relative;
+    color: white;
+    white-space: wrap;
+    margin-right: -11rem;
+    top:3rem;
+    left:-10rem;    
+}
+
+
+
+
+
+
+/* 3rd review card */
+.review:nth-child(3){
+    
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/* img */
+.review:nth-child(3)>div>:nth-child(1){
+    position: relative;
+    width:5rem;
+    height: 5rem;
+    padding: 0.5rem;
+    border-radius: 5rem;
+    
+    border: 2px solid var(--orange);
+    object-fit: cover;
+    left: -1rem;
+    top: -1.5rem
+}
+
+/* handle */
+.review:nth-child(3)>div>:nth-child(2){
+    position: relative;
+    font-size: 1.1rem;
+    font-weight: bold;
+    top: -7.5rem;
+    left: 6rem
+    
+}
+
+/* verify check*/
+.review:nth-child(3)>div>:nth-child(3){
+    position: relative;
+    width:2rem;
+    height: 2rem;
+    
+    object-fit: cover;
+    left: 7rem;
+    top: -7rem
+}
+
+/* Status*/
+.review:nth-child(3)>div>:nth-child(4){
+    position: relative;
+    color:var(--orange);
+    white-space: nowrap;
+    top: -6rem;
+    left: 6rem
+}
+
+/* Review Text*/
+
+.review:nth-child(3)>:nth-child(2){
+    position:relative;
+    color: white;
+    white-space: wrap;
+    margin-right: -13rem;
+    top:3rem;
+    left:-14rem;    
+}
+

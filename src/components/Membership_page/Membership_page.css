@@ -1,0 +1,551 @@
+.membership-hero{
+    background: var(--appColor);
+
+    display: flex;
+    justify-content: space-between;
+    height:48rem;
+    
+
+}
+
+.membership-blur{
+    background: rgba(253, 128,43, 0.69);
+    width:25rem;
+    height:30rem;
+    left:0;
+    z-index: 1;
+
+}
+
+.right-m{
+    margin-top: 8rem;
+    
+    flex:1;
+    
+    position:relative;
+    background-color: var(--orange);
+}
+
+
+.membership_banner{
+
+    position:absolute;
+    top: 0rem;
+    right: 8rem;
+    width:29rem;
+    height:45rem;
+    z-index:2;
+}
+
+.membership_banner-circle1{
+    position:absolute;
+    top:0rem;
+    right:4rem;
+    z-index:1;
+    width:40rem;
+    
+}
+.membership_banner-circle2{
+    position:absolute;
+    top:0rem;
+    right:4rem;
+    z-index:1;
+    width:40rem;
+    
+
+}
+
+
+.membership-text{
+    margin-top:5rem;
+    
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color:white;
+    text-overflow: inherit;
+    z-index: 1;
+
+    
+}
+
+
+.membership-text>div:nth-child(1)>span:nth-child(1){
+    margin-left: 0.3rem;
+    display:flex;
+    font-weight:bold;
+    font-size:1rem;
+    color:var(--orange);
+
+    
+
+}
+
+
+.membership-text>div:nth-child(2)>span:nth-child(2){
+    
+    margin-left:-0.3rem
+
+    
+
+}
+
+.membership-text>div:nth-child(3){
+    font-size: 0.9rem;
+    font-weight:200;
+    letter-spacing: 1px;
+    width: 80%;
+    line-height: 2;
+}
+
+
+
+
+
+.left-m{  
+    margin-top: 8rem;
+    margin-left: 1rem;
+    padding: 2rem;
+    
+    flex:3;
+    display: flex;
+    gap:2rem;
+    flex-direction: column;
+    
+}
+
+
+
+
+.figures{
+    display: flex;
+    gap: 2rem;
+}
+
+.figures>div{
+    display:flex;
+    flex-direction: column;
+}
+
+.figures>div>span:nth-child(1){
+    color:white;
+    font-size:2rem;
+}
+
+.figures>div>span:nth-child(2){
+    color: var(--gray);
+
+}
+
+.membership-button{
+    display: flex;
+    font-weight: normal;
+    width:10rem
+
+}
+
+.membership-button>:nth-child(1){
+    color:white;
+    background-color: var(--orange);
+    width: 10rem;
+
+
+}
+
+.membership-button>:nth-child(1):hover{
+    color:white;
+
+    background-color: transparent;
+    width:10rem;
+    border:2px solid var(--orange);
+    
+}
+
+
+
+/*STEPS*/
+
+.membership-steps{
+    background: linear-gradient(to bottom, var(--appColor), rgba(53, 30, 15, 0.69));
+    display: flex;
+    justify-content: space-between;
+    height:48rem;
+    
+
+}
+
+
+
+.steps-header{
+    margin-top:12rem;
+    margin-left:3rem;
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    font-size: 4rem;
+    font-weight: bold;
+    color:white;
+    text-overflow: inherit;
+    z-index: 1;
+
+    
+}
+
+.row-1{
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    margin-right:3rem;
+    margin-top:8rem;
+
+}
+
+.steps h1{
+    color: white;
+    border: 0.5rem solid white;
+    border-radius: 100%;
+    padding:1.5rem 1.5rem 1.5rem 1.5rem;
+    /*top, right,bottom,left*/
+    width: 2rem;
+    height: 2rem;
+    position: center;
+    text-align: center;
+
+}
+
+.steps span{
+    color:white;
+    margin-bottom:1.5rem;
+    font-size: 1.1rem;
+
+}
+
+
+.step-card-1{
+    background: linear-gradient(to right, orange, red);
+    height:11rem;
+    width:20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+
+}
+
+
+
+.step-card-1:hover{
+    transform: scale(1.1);
+}
+
+
+
+.step-card-2{
+    
+    background: linear-gradient(to left,orange, red);
+    height:11rem;
+    width:20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+
+
+}
+
+.step-card-2:hover{
+    transform: scale(1.1);
+}
+
+.step-card-3{
+    
+    background: linear-gradient(to right,orange, red);
+    height:11rem;
+    width:20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+.step-card-3:hover{
+    transform: scale(1.1);
+}
+
+.row-2{
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    margin-top: 1.5rem;
+    
+
+}
+
+
+.step-card-4{
+    
+    background: linear-gradient(to right bottom,orange, red);
+    height:11rem;
+    width:20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+}
+.step-card-4:hover{
+    transform: scale(1.1);
+}
+
+.step-card-5{
+    
+    background: linear-gradient(to left bottom,orange, red);
+    height:11rem;
+    width:20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+.step-card-5:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+/*MEMBERSHIP PLANS*/
+.m_page_plans-container{
+    background: var(--appColor);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+    position:relative;
+    height:70rem;
+}
+.m_page_plans-blur-1{
+    background: rgba(253, 128,43, 0.69);
+    width:32rem;
+    height:43rem;
+    top:6rem;
+    left:0rem;
+    z-index: 0;
+
+}
+
+
+.m_page_plans-blur-2{
+    background: rgba(253, 128,43, 0.69);
+    width:32rem;
+    height:43rem;
+    top:10rem;
+    right:0rem;
+
+}
+
+.m_page_plans-header{
+    padding: 2rem;
+    display: flex;
+    font-weight:bold;
+    font-size:3rem;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.m_page_plans-header>div>span:nth-child(1){
+    color: white;
+    
+}
+
+.m_page_plans-header>div>span:nth-child(2){
+    color: var(--orange);
+    
+}
+
+
+
+.m_page_plans{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-left:4rem;
+    z-index: 1;
+}
+
+.m_page_plan{
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    color:white;
+    gap:2rem;
+    padding: 1.5rem;
+    width:15rem;
+}
+
+.membership_week{
+    margin-left: 5rem;
+}
+
+
+.features{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+
+.feature{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.feature>img{
+    width: 2rem;
+}
+
+
+/* 1st plan card */
+.m_page_plan:nth-child(1){
+    height:45rem;
+   
+    color: black
+}
+
+/* plan name */
+.m_page_plan:nth-child(1)>span:nth-child(1){
+    margin-left: 2.7rem;
+    margin-top:1rem;
+
+    color:black;
+    font-size: 1.4rem;
+    font-weight: bold;
+    
+}
+
+/* price */
+.m_page_plan:nth-child(1)>span:nth-child(2){
+    margin-left: 2.5rem;
+    
+    margin-bottom: 1rem;
+
+    color:var(--orange);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* btn */
+.m_page_plan:nth-child(1)>.btn{
+    margin-top: 10rem;
+    background-color: var(--orange);
+    color:white;
+    
+}
+
+.m_page_plan:nth-child(1)>.btn:hover{
+    background-color: var(--appColor);
+    
+}
+
+
+
+/* 2nd plan card */
+.m_page_plan:nth-child(2){
+    height:45rem;
+
+    background: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%) ;
+    color: white;
+    transform: scale(1.1);
+}
+
+/* plan name */
+.m_page_plan:nth-child(2)>span:nth-child(1){
+    margin-top: 1rem;
+    margin-left: 1.8rem;
+    color:white;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+/* price */
+.m_page_plan:nth-child(2)>span:nth-child(2){
+    margin-bottom: 1rem;
+
+    margin-left: 2.5rem;
+    color:white;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+/* btn */
+.m_page_plan:nth-child(2)>.btn{
+    margin-top: 6.5rem;
+
+    background-color: white;
+    color:#efb92d;
+  
+}
+
+
+.m_page_plan:nth-child(2)>.btn:hover{
+    background-color: var(--appColor);
+    
+}
+
+
+/* 3rd plan card */
+.m_page_plan:nth-child(3){
+    height:45rem;
+
+    color: black;
+}
+
+/* plan name */
+.m_page_plan:nth-child(3)>span:nth-child(1){
+    margin-left: 2.2rem;
+
+    color:black;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+/* price */
+.m_page_plan:nth-child(3)>span:nth-child(2){
+    margin-left: 2.5rem;
+    margin-bottom: 1rem;
+    color:var(--orange);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* btn */
+.m_page_plan:nth-child(3)>.btn{
+    margin-top: 2rem;
+    background-color: var(--orange);
+    color:white;
+   
+    
+}
+
+.m_page_plan:nth-child(3)>.btn:hover{
+    background-color: var(--appColor);
+    
+}
+
+
+
+
+
