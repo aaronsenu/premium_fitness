@@ -43,7 +43,7 @@ localStorage.setItem("ID", "")
   return (
     
 
-    <Router basename="/">
+    <Router basename="/premium_fitness">
     <div className="App">
 
     <ProgressCircle/>
