@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from "./components/Navbar/Navbar"
 import ProgressCircle from './components/ProgressCircle/ProgressCircle';
 import Home from "./components/Home/Home"
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 import Clubs from './components/Clubs/Clubs';
 //import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Classes from "./components/Classes_Page/Classes_Page"
@@ -43,7 +43,7 @@ localStorage.setItem("ID", "")
   return (
     
 
-    <Router>
+    <Router basename="/premium_fitness">
     <div className="App">
 
     <ProgressCircle/>
@@ -60,20 +60,24 @@ localStorage.setItem("ID", "")
               <Login/>
             </Route>
 
-
             <Route exact path = "/">
-              <Home/>
-            </Route>  
+              <Redirect to="/home" />
+            </Route>
 
-            <Router exact path = "/myHome">
+            <Route exact path="/home">
+              <Home />
+            </Route>
+        
+
+            <Route exact path = "/myHome">
               <MyHome/>
 
-            </Router>
+            </Route>
 
 
-            <Router exact path = "/sports">
+            <Route exact path = "/sports">
               <Sports/>
-            </Router>
+            </Route>
 
             <Route exact path = "/exercise">
               <Exercise/>
