@@ -60,7 +60,7 @@ localStorage.setItem("ID", "")
               <Login/>
             </Route>
 
-            <Route exact path = "/">
+            <Route exact path = "/premium_fitness">
               <Redirect to="/home" />
             </Route>
 
